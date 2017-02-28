@@ -1,0 +1,224 @@
+{
+  "title": "Knowit Stavanger Fagseminar våren 2017",
+  "event": {
+    "date": "27. april - 30. april 2017",
+    "longDate": "27. april - 30. april 2017",
+    "venue": "The President",
+    "city": "Praha",
+    "country": "Tsjekkia",
+    "gmapsUrl": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5119.3493014208125!2d14.419741!3d50.092378!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3c19ac9d6a0ad0fb!2sPresident+Hotel+Prague!5e0!3m2!1sen!2sus!4v1488268093367"
+  },
+  "schedules": [
+    {
+      "day": "Torsdag 27. april",
+      "collections": [
+        {
+          "time": "14:30-15:30 Lunsj",
+          "entries": [
+            {
+              "room": "",
+              "slots": [
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "time": "15:30-18:00 Korte foredrag (intro til workshop)",
+          "entries": [
+            {
+              "room": "Rom 1",
+              "slots": [
+                "velkommen",
+                "react_intro",
+                "redux",
+                "immutable"
+              ]
+            }
+          ]
+        },
+        {
+          "time": "18:00- Mingling",
+          "entries": [
+            {
+              "room": "",
+              "slots": [
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "time": "20:30 Middag",
+          "entries": [
+            {
+              "room": "",
+              "slots": [
+                ""
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Fredag 28. april",
+      "collections": [
+        {
+          "time": "09:00-09:02 God morgen 😴",
+          "entries": [
+            {
+              "room": "Rom 1",
+              "slots": [
+                "velkommen2"
+              ]
+            }
+          ]
+        },
+        {
+          "time": "09:02-09:47 Korte foredrag forts. (intro til workshop)",
+          "entries": [
+            {
+              "room": "Rom 1",
+              "slots": [
+                "rxjs"
+              ]
+            }
+          ]
+        },
+        {
+          "time": "09:47-10:00 Pause",
+          "isBreak": true
+        },
+        {
+          "time": "10:15-17:00 React Workshop",
+          "entries": [
+            {
+              "room": "Rom 1",
+              "slots": [
+                "react_workshop"
+              ]
+            }
+          ]
+        },
+        {
+          "time": "12:00-13:00 Lunsj",
+          "entries": [
+            {
+              "room": "",
+              "slots": [
+                ""
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "talks": {
+    "velkommen": {
+      "pending": false,
+      "speakers": [
+        {
+          "name": "Espen Tjønneland",
+          "bio": "Espen er daglig leder i Knowit Stavanger. Jobber for tiden litt hos Oslo Kommune med arkitektur. Driver også med salg, marked og hvordan vi skal få de rette nye prosjektene. Lidenskapelig opptatt av fag (Java :)!",
+          "pic": "etj.jpg",
+          "email": "etj@knowit.no"
+        },
+        {
+          "name": "Frode Ånonsen",
+          "bio": "Frode er fagsjef i Knowit Stavanger. Frode er lidenskapelig opptatt av programmering, med særlig fokus på frontend.",
+          "pic": "frode.jpg",
+          "email": "froano@knowit.no"
+        }
+      ],
+      "title": "Velkommen til fagseminar",
+      "type": "Intro (5 min)",
+      "description": "Velkommen til en langhelg i Praha med dypdykk i bleeding edge frontend koding! Denne gang er det Knowit Stavanger som er arrangør. Vi kjører et fagseminar rundt React og tilhørende teknologier."
+    },
+      "velkommen2": {
+      "pending": false,
+      "speakers": [
+        {
+          "name": "Frode Ånonsen",
+          "bio": "Frode er fagsjef i Knowit Stavanger. Frode er lidenskapelig opptatt av programmering, med særlig fokus på frontend.",
+          "pic": "frode.jpg",
+          "email": "froano@knowit.no"
+        }
+      ],
+      "title": "God morgen!",
+      "type": "Intro (2 min)",
+      "description": "Introduksjon til dagens program!"
+    },
+    "react_intro": {
+      "pending": false,
+      "speakers": [
+        {
+          "name": "Asbjørn Enge Andersen (Assi)",
+          "bio": "Asbjørn er sjef på React!",
+          "pic": "asband.png",
+          "email": "asband@knowit.no"
+        }
+      ],
+      "title": "Intro til React",
+      "type": "Intro til React (45 min.)",
+      "description": "Kort introduksjon til React rammeverket"
+    },
+    "redux": {
+      "pending": false,
+      "speakers": [
+        {
+          "name": "Oddgeir Gitlestad",
+          "bio": "Oddgeir er helt konge på både Java og Javascript, faktisk!",
+          "pic": "oddgit.jpg",
+          "email": "oddgit@knowit.no"
+        }
+      ],
+      "title": "Redux - Hvordan, og ikke minst hvorfor bruke Redux med React?",
+      "type": "Intro til Redux (45 min.)",
+      "description": "A predictable state container for JavaScript apps. You can use Redux together with React, or with any other view library."
+    },
+    "immutable": {
+      "pending": false,
+      "speakers": [
+        {
+          "name": "Jan Funke",
+          "bio": "Jan er drivende dyktig på frontend- utvikling og design!",
+          "pic": "ikke_bilde.svg",
+          "email": "jan.funke@knowit.no"
+        }
+      ],
+      "title": "ImmutableJS",
+      "type": "Intro til ImmutableJS (45 min.)",
+      "description": "Forutsigbarhet, ytelse, sporbarhet, matematisk korrekthet, etc. Perfekt sammen med Redux (som er perfekt sammen med React)!"
+    },
+    "rxjs": {
+      "pending": false,
+      "speakers": [
+        {
+          "name": "Kennet Vuong",
+          "bio": "Kennet er knakendes god både på frontend og backend! Full-stack FTW!",
+          "pic": "kennet.vuong.jpg",
+          "email": "kennet.vuong@knowit.no"
+        }
+      ],
+      "title": "Reactive Extensions for JavaScript (RxJS)",
+      "type": "Intro til ReactiveX med RxJS (45 min.)",
+      "description": "The Observer pattern done right - ReactiveX is a combination of the best ideas from the Observer pattern, the Iterator pattern, and functional programming"
+    },
+    "react_workshop": {
+      "pending": false,
+      "speakers": [
+        {
+          "name": "Asbjørn Enge Andersen (Assi)",
+          "bio": "Asbjørn er sjef på React!",
+          "pic": "asband.png",
+          "email": "asband@knowit.no"
+        }
+      ],
+      "title": "React Workshop",
+      "type": "React Workshop (6 timer)",
+      "description": "Kort introduksjon til React rammeverket"
+    }
+  }
+}
