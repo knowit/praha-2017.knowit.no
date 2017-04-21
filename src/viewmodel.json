@@ -24,7 +24,7 @@
           ]
         },
         {
-          "time": "15:30-18:00 Korte foredrag (intro til workshop)",
+          "time": "15:30-17:30 Korte foredrag (intro til workshop)",
           "entries": [
             {
               "room": "Rom 1",
@@ -182,14 +182,14 @@
       "pending": false,
       "speakers": [
         {
-          "name": "Jan Funke",
-          "bio": "Jan er drivende dyktig på frontend- utvikling og design!",
-          "pic": "ikke_bilde.svg",
-          "email": "jan.funke@knowit.no"
+          "name": "Walter Dahl",
+          "bio": "Walter er drivende dyktig på frontendutvikling samt Scala og .Net!",
+          "pic": "waldah.jpg",
+          "email": "waldah@knowit.no"
         }
       ],
       "title": "ImmutableJS",
-      "type": "Intro til ImmutableJS (45 min.)",
+      "type": "Kort intro til ImmutableJS (ca. 15 min.)",
       "description": "Forutsigbarhet, ytelse, sporbarhet, matematisk korrekthet, etc. Perfekt sammen med Redux (som er perfekt sammen med React)!"
     },
     "rxjs": {
