@@ -449,3 +449,7 @@ td, th{
   display: block;
   font-size: 0.6rem;
 }
+
+span.assi {
+  margin-bottom: 20px;
+}
